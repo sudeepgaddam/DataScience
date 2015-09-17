@@ -9,7 +9,6 @@ del prod['dummy']
 del resto['dummy']
 
 # Show that prod is the size of "resto" squared:
-print len(prod), len(resto)**2, len(resto)
 prod = prod[prod.id_x > prod.id_y]
 print prod[:10]
 
